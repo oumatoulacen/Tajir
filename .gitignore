@@ -1,0 +1,34 @@
+# ignore virtualenv (env) and __pycache__ directories
+env/
+*/__pycache__/
+
+# ignore django in backend
+backend/__pycache__/
+backend/db.sqlite3
+backend/.env
+backend/.env.local
+backend/.env.development.local
+
+
+# ignore react in frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local 
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.development
+frontend/.env.test
+
+# ignore database
+
+db.sqlite3
+
+# ignore .DS_Store files
+
+.DS_Store
+
+# ignore .vscode files
+
+.vscode/
